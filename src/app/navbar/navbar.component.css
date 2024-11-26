@@ -1,0 +1,42 @@
+.col-2{
+	text-align: center;
+}
+.col{
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+li{
+	float:inline-end;
+	float: right;
+}
+
+a {
+	font-size: large;
+}
+
+li a{ 
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+} 
+
+li a:hover{
+	background-color: #555;
+	color:red;
+	border-radius: 10px;
+}
+ 
+.navbar{
+
+	display: inline-block;
+	width: 100%;
+} 
