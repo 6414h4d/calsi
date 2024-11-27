@@ -6,7 +6,8 @@ import { OtherBowlingServicesComponent } from './other-bowling-services/other-bo
 import { HomePageComponent } from './home-page/home-page.component';
 
 const routes: Routes = [
-	{ path:'', component:HomePageComponent},
+	// { path:'', component:HomePageComponent},
+	{ path:'', component:CoachingComponent},
 	{ path:'coaching', component:CoachingComponent},
 	{ path:'mechanical-services', component:MechanicalServicesComponent},
 	{ path:'other-bowling-services', component:OtherBowlingServicesComponent}
