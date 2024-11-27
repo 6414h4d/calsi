@@ -16,3 +16,16 @@ h1 {
 img {
 	border-radius: 1%;
 }
+li{
+	padding-top: 5%;
+}
+.title-li{
+	list-style-type: none;
+}
+
+p{
+	font-size: large;
+}
+li{
+	list-style-type: none;
+}
