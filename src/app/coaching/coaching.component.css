@@ -1,7 +1,10 @@
 .container{
 	margin-top: 10px;
 }
-
+.text-back-block{
+	background-color: rgb(255, 0, 0);
+	opacity: 50%;
+}
 h1 {
 	text-align: center;
 }
@@ -10,7 +13,7 @@ h1 {
 }
 
 .row {
-	padding:2%;
+	padding-bottom:2%;
 }
 
 img {
@@ -28,4 +31,7 @@ p{
 }
 li{
 	list-style-type: none;
+}
+.image{
+	align-self: center;
 }

@@ -14,6 +14,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { LeftpanelComponent } from './home-page/leftpanel/leftpanel.component';
 import { RightpanelComponent } from './home-page/rightpanel/rightpanel.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 // Angular Material Imports 
 
@@ -29,7 +30,8 @@ import { RightpanelComponent } from './home-page/rightpanel/rightpanel.component
     HomePageComponent,
     FooterComponent,
     LeftpanelComponent,
-    RightpanelComponent
+    RightpanelComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

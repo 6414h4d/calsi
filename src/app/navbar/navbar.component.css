@@ -36,7 +36,14 @@ li a:hover{
 }
  
 .navbar{
-
+	/* background-color: red; */
 	display: inline-block;
 	width: 100%;
 } 
+.wertical-align {
+	display:flex;
+	align-items:center;
+}
+.logo{
+	padding-right:1rem;
+}
