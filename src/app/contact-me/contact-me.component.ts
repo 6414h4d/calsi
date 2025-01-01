@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContactMeComponent {
 
+	onSubmitQuery(){
+		alert("Something went wrong. \n\n Please send your query to CalsiBowling@gmail.com");
+	};
 }

@@ -1,12 +1,56 @@
 <div class="container">
 	<div class="row">
-		<div class="col">
-			<p>Blurb</p>
+		<div class="col blurb">
+		<h2>Looking to take your bowling to the next level?</h2>
+		<p class=""> With years of experience coaching bowlers of all skill levels, I’m 
+			here to help you perfect your technique, improve your score, and 
+			enjoy the game like never before.</p>
+
+			<p>Whether you're a beginner or a seasoned player, personalized 
+				coaching sessions will get you rolling toward your goals. </p>
+			<br>
+			<p>Let’s strike success together—contact 
+			me today!</p>
 		</div>
 		<div class="col">
-			<p>FORM</p>
+			<mat-card appearance="outlined">
+				<mat-card-header> <h1> Contact Form </h1> </mat-card-header>
+				<mat-card-content>
+				<form action="">
+					<div class="row">
+					<mat-form-field>
+						<mat-label>Name</mat-label>
+						<input matInput placeholder="Name" type="text">
+					</mat-form-field>
+					</div>
+
+					<div class="row">
+					<mat-form-field>
+						<mat-label>Email Address</mat-label>
+						<input matInput placeholder="Email" type="text">
+					</mat-form-field>
+					</div>
+
+					<div class="row">
+					<mat-form-field>
+						<mat-label>Phone Number</mat-label>
+						<input matInput placeholder="Phone Number" type="number">
+					</mat-form-field>
+					</div>
+
+					<div class="row">
+					<mat-form-field>
+						<mat-label>Query</mat-label>
+						<input matInput placeholder="Query" type="text">
+					</mat-form-field>
+
+						<button mat-flat-button (click)="onSubmitQuery()" >Submit</button>
+
+					</div>
+				</form>
+				</mat-card-content>
+			</mat-card>
 		</div>
-		<p>contact-me works!</p>
 	</div>
 </div>
 

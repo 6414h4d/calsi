@@ -15,6 +15,12 @@ import { FooterComponent } from './footer/footer.component';
 import { LeftpanelComponent } from './home-page/leftpanel/leftpanel.component';
 import { RightpanelComponent } from './home-page/rightpanel/rightpanel.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+
 
 // Angular Material Imports 
 
@@ -34,10 +40,15 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     ContactMeComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+	MatInputModule,
+	MatFormFieldModule,
+	MatCardModule,
     NgbModule,
-    BrowserAnimationsModule
+	ReactiveFormsModule,
+	MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
