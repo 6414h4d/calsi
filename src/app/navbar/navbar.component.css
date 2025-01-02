@@ -11,10 +11,10 @@ ul {
 	padding:0;
 	overflow: hidden;
 }
-
 li{
 	float:inline-end;
 	float: right;
+
 }
 
 a {
@@ -45,5 +45,5 @@ li a:hover{
 	align-items:center;
 }
 .logo{
-	padding-right:1rem;
+	padding-left:1%;
 }

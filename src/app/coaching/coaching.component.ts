@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class CoachingComponent {
 
+	scrollAbout(el:HTMLElement){
+		el.scrollIntoView();
+	}
+	scrollAchieve(el:HTMLElement){
+		el.scrollIntoView();
+	}
+	scrollRates(el:HTMLElement){
+		el.scrollIntoView();
+	}
 }

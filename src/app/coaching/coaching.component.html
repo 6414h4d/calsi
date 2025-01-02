@@ -1,30 +1,43 @@
 <div class="container">
-	<div class="row">
-		<!-- <div class="col-7 image" style="background-color: aqua;">
-			<img src="../../assets/callumFront.jpeg" alt="" width="100%" height="100%">
+	<!-- <div class="row quicklinks">
+		<div class="col-3 aboutme">
+			<h2>About me</h2>
+			<p style="text-align: justify;">I am a dedicated coach with a proven track record of success as an athlete and mentor.  My journey
+				becan with a gold-medal-winning performance at the 2019 Youth Triple Crown U22 Boys, where I claimed
+				top honours in Singles, Doubles, Team, All Events and the overall cup...
+			</p>
+
+			<button (click)="scrollAbout(about)" class="quicklinkbutton" mat-raised-button>About me</button>
+			
 		</div>
-		<div class="col-5 text" style="background-color: red;">
+		
+		<div class="col-3 achievements">
+			<h2>Achievements</h2>
+			<p style="text-align: justify;">
+				With a decorated career spanning over a decade, I bring elite-level experience 
+				and expertise to my coaching business. As a 3-time National Champion, I 
+				have consistently demonstrated excellence at the highest levels of 
+				competition. Representing...
+			</p>
+			
+			<button (click)="scrollAchieve(achievements)" class="quicklinkbutton" mat-raised-button>Achievements</button>
+		</div>
 
-		Ill try and get some actual coaching photos at some point but for now you've got some place holders there. Feel free to scrub my FB too, 
-		I've gone to striking shirts for a logo/shirt stuff because mint had nothing after 3 months 🙃
+		<div class="col-3 rates">
+			<h2>Rates</h2>
+			<ul style="font-size: large;">
+				<li style="justify-content: left;"><b>£20</b> per hour – Individual Coaching</li>
+				<li style="justify-content: left;"><b>£30</b> per hour – Group Coaching (up to 4 people)</li>
+			</ul>
+			<p style="text-align: justify;">For groups larger than 4, get in contact wth me...</p>
 
-		Im thinking of marketing myself as high level coaching for a reasonable price. Pitch it is as 
-		I want to work with as many people as possible. I'm sure you can spin that into something short and sweet.
-
-		My rates £20 an hour for individual, £30 for groups up to 4. Anything larger is available but on a 
-		custom basis. Non of this includes lane fee and is all in shipley.
-
-		England Coach 2019 - 2024
-		Ebf level 3
-
-		England player 2018 - 2024
-		Scottish open champion 2023	
-		</div> -->
-	</div>
-	<div class="row">
+			<button (click)="scrollRates(rates)" class="quicklinkbutton" mat-raised-button>Rates</button>
+		</div>
+	</div> -->
+	<div #about class="row">
 	<div class="col-6 text">
-			<h1 style="">About Me</h1>
-		<p>
+			<h1  style="">About Me</h1>
+		<p class="text-center">
 			I am a passionate and dedicated bowling coach with a proven track record of success both as an 
 			athlete and a mentor. My journey began with a gold-medal-winning performance at the 2019 Youth 
 			Triple Crown U22 Boys, where I claimed top honors in Singles, Doubles, Team, All Events, and the 
@@ -49,15 +62,15 @@
 	</div>
 	</div>
 
-	<div class="row">
+	<div #achievements class="row">
 		<div class="col-7 image">
 
 			<img src="../../assets/BronzeMedal.jpg" alt="" width="90%" >
 		</div>
 		<div class="col-5 text">
-			<h1>Achievements</h1> 
+			<h1 >Achievements</h1> 
 			
-			<p>With a decorated career spanning over a decade, I bring elite-level experience 
+			<p class="text-center">With a decorated career spanning over a decade, I bring elite-level experience 
 				and expertise to my coaching business. As a 3-time National Champion, I 
 				have consistently demonstrated excellence at the highest levels of 
 				competition. Representing the Men's National Team in both 2022 and 2023 
@@ -73,11 +86,11 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div #rates class="row">
 		<div class="col-5 text">
-			<h1>Rates</h1> 
+			<h1 >Rates</h1> 
 		
-			<p>I am based in Go Bowling, Shipley; for lessons outside of shipley, with groups of larger than 8, with companies, or with national teams please enquire directly</p>
+			<p class="text-center">I am based in Go Bowling, Shipley; for lessons outside of shipley, with groups of larger than 8, with companies, or with national teams please enquire directly</p>
 			<ul>
 				<li>£20 per hour – Individual Coaching</li>
 				<li>£30 per hour – Group Coaching (up to 4 people)</li>
@@ -89,7 +102,7 @@
 				and success, but it’s just as important that you’re equally committed to your journey. Let’s 
 				grow together, one session at a time.</p>
 			
-			<a routerLink="/contact"> <button mat-flat-button >Get in touch</button> </a>
+			<a routerLink="/contact"> <button class="button" mat-flat-button >Get in touch</button> </a>
 		</div>
 		<div class="col-7 image">
 
