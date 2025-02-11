@@ -9,25 +9,25 @@
             <div class="col-lg-6">
                 <div class="card p-4 shadow">
                     <h3 class="text-center">Contact Form</h3>
-                    <form action="https://formspree.io/f/xeoelaor" method="POST">
+                    <form action="https://formspree.io/f/xeoelaor" class="fs-form" target="_top" method="POST">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name
-                            <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name">
+                            <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Enter your name" required>
 							</label>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email Address
-                            <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email">
+                            <input type="email" class="form-control mb-3" id="email" name="email" placeholder="Enter your email" required>
 							</label>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Phone Number
-								<input type="tel" class="form-control mb-3" id="phone" placeholder="Enter your phone number">
+								<input type="tel" class="form-control mb-3" id="phone" name="phone" placeholder="Enter your phone number" required>
 							</label>
                         </div>
                         <div class="mb-3">
                             <label for="query" class="form-label">Query
-								<textarea class="form-control mb-3" id="query" rows="3" placeholder="Enter your query"></textarea>
+								<textarea class="form-control mb-3" id="query" name="query" rows="3" placeholder="Enter your query" required></textarea>
 							</label>
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Submit</button>
